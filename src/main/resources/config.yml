@@ -1,0 +1,11 @@
+# Zeitzone fuer die Uhrzeiten in der Anzeige
+timezone: Europe/Berlin
+
+# Eintraege pro Seite
+page-size: 10
+
+# Groesster erlaubter Radius bei /check
+max-radius: 100
+
+# Maximal so viele Eintraege (die neuesten) werden pro Abfrage geladen
+max-results: 2000

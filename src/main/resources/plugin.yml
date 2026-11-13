@@ -1,0 +1,14 @@
+name: BlockLog
+version: 1.0.0
+main: de.blocklog.BlockLog
+api-version: '26.1'
+description: Protokolliert Bloecke und Container-Zugriffe. Nur fuer Admins abrufbar.
+commands:
+  check:
+    description: Zeigt, wer in der Umgebung Bloecke platziert oder abgebaut hat
+    usage: /check <radius> | /check radius <zahl> | /check page <seite>
+    permission: blocklog.use
+permissions:
+  blocklog.use:
+    description: Darf das Protokoll mit /check und der Holzspitzhacke abfragen
+    default: op
